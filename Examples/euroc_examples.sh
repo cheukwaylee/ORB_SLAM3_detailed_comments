@@ -50,6 +50,8 @@ echo "Launching Vicon Room 2 with Monocular sensor"
 # Stereo Examples
 echo "Launching MH01 with Stereo sensor"
 ./Stereo/stereo_euroc ../Vocabulary/ORBvoc.txt ./Stereo/EuRoC.yaml "$pathDatasetEuroc"/MH01 ./Stereo/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereo
+#
+./Stereo/stereo_euroc ../Vocabulary/ORBvoc.txt ./Stereo/EuRoC.yaml /home/cw/thesis_dataset/data_EuRoC/MH_01_easy/ ./Stereo/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereo
 
 echo "Launching MH02 with Stereo sensor"
 ./Stereo/stereo_euroc ../Vocabulary/ORBvoc.txt ./Stereo/EuRoC.yaml "$pathDatasetEuroc"/MH02 ./Stereo/EuRoC_TimeStamps/MH02.txt dataset-MH02_stereo
@@ -95,6 +97,8 @@ echo "Launching Vicon Room 2 with Stereo sensor"
 # Monocular-Inertial Examples
 echo "Launching MH01 with Monocular-Inertial sensor"
 ./Monocular-Inertial/mono_inertial_euroc ../Vocabulary/ORBvoc.txt ./Monocular-Inertial/EuRoC.yaml "$pathDatasetEuroc"/MH01 ./Monocular-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_monoi
+#
+./Monocular-Inertial/mono_inertial_euroc ../Vocabulary/ORBvoc.txt ./Monocular-Inertial/EuRoC.yaml /home/cw/thesis_dataset/data_EuRoC/MH_01_easy/ ./Monocular-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_monoi
 
 echo "Launching MH02 with Monocular-Inertial sensor"
 ./Monocular-Inertial/mono_inertial_euroc ../Vocabulary/ORBvoc.txt ./Monocular-Inertial/EuRoC.yaml "$pathDatasetEuroc"/MH02 ./Monocular-Inertial/EuRoC_TimeStamps/MH02.txt dataset-MH02_monoi
@@ -140,6 +144,8 @@ echo "Launching Vicon Room 2 with Monocular-Inertial sensor"
 # Stereo-Inertial Examples
 echo "Launching MH01 with Stereo-Inertial sensor"
 ./Stereo-Inertial/stereo_inertial_euroc ../Vocabulary/ORBvoc.txt ./Stereo-Inertial/EuRoC.yaml "$pathDatasetEuroc"/MH01 ./Stereo-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereoi
+#
+./Stereo-Inertial/stereo_inertial_euroc ../Vocabulary/ORBvoc.txt ./Stereo-Inertial/EuRoC.yaml /home/cw/thesis_dataset/data_EuRoC/MH_01_easy ./Stereo-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereoi
 
 echo "Launching MH02 with Stereo-Inertial sensor"
 ./Stereo-Inertial/stereo_inertial_euroc ../Vocabulary/ORBvoc.txt ./Stereo-Inertial/EuRoC.yaml "$pathDatasetEuroc"/MH02 ./Stereo-Inertial/EuRoC_TimeStamps/MH02.txt dataset-MH02_stereoi
